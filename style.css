@@ -1,9 +1,9 @@
 body{
     margin: 0;
+    font-family:"Roboto", serif;
 }
 
 .first-section{
-    font-family:"Roboto", serif;
     background-color: #1f2937;
     padding: 16px;
     margin: 0;
@@ -93,7 +93,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 400px;
 }
 
@@ -123,4 +124,100 @@ main{
     border: 4px solid #3382f6;
 }
 
+/* third section */
 
+.third-section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    margin-top: 20px;
+}
+
+.third-section > section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.third-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.cite{
+    margin-right: 16px;
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+/* fourth section */
+
+.fourth-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-section{
+    background:#3382f6;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.left-section-action{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-section-action h2{
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.left-section-action p{
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.right-section-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section-action button{
+    color: #f9faf8;
+    background:#3382f6;
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 700;
+
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+}
